@@ -1,0 +1,80 @@
+\documentclass{aa} 
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{txfonts}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage{upgreek}
+\usepackage{float}
+
+
+%________________________________________________________________
+
+\newcommand{\brgamma}{\ion{Br}{$\gamma$}~}
+\newcommand{\sig}{$\sigma$~}
+\newcommand{\m}{$^\mathrm{m}$~}
+\newcommand{\micron}{\upmu\mathrm{m}}
+
+%________________________________________________________________
+
+\newcommand{\occomment}[1]{\textbf{\textcolor{red}{(OC: #1)}}}
+\newcommand{\klcomment}[1]{\textbf{\textcolor{green}{(KL: #1)}}}
+
+\begin{document} 
+
+  \title{SimCADO I: Introducing the instrument data simulation suite for MICADO at the ELT}
+  %\subtitle{}
+  \author{K. Leschinski\inst{1}
+     \and
+          O. Czoske\inst{1}
+     \and
+          G. Verdoes Kleijn\inst{2}
+     \and     
+          R. Davies\inst{3}
+     \and
+          W. Zeilinger\inst{1}
+     \and
+          J. Alves\inst{1}
+      }
+     
+
+  \institute{Department of Astrophysics, University of Vienna,
+          Türkenschanzstr.~17, A-1180 Vienna, Austria\\
+          \email{kieran.leschinski@univie.ac.at}
+%     \and
+%         Institut für Astro- und Teilchenphysik, Universität Innsbruck, Technikerstr.~25/8, A-6020 Innsbruck, Austria
+     \and
+         Kapteyn Astronomical Institute, University of Groningen, PO Box 800, 9700 AV Groningen, The Netherlands
+     \and
+         Max Planck Institute for Extraterrestrial Physics, PO Box 1312, D-85741 Garching, Germany
+      }
+
+  \date{Received 01.03.2018; accepted TBD}
+
+  \input{0_Abstract}
+
+  \keywords{}
+
+\maketitle
+
+%________________________________________________________________
+
+\input{1_Introduction}
+\input{2b_brief_simcado_introduction}
+\input{3_HAWKI_with_SimCADO}
+\input{4_Predictions_with_SimCADO}
+\input{5_Conclusions}
+\input{7_acknowledgements}
+
+\bibliographystyle{aa}
+\bibliography{simcado_refs}
+
+\appendix
+\input{6_Appendix}
+
+%________________________________________________________________
+
+\end{document}
