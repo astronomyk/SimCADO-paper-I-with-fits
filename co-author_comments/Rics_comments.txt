@@ -1,0 +1,74 @@
+title: consider changing to: 'SimCADO I: Introducing & Validating the...'
+
+sec 1, p. 1 (see also start of sec 4 on p. 5)
+8mas & 14mas for J & K are too large for the FWHM (these look more like the HWZI). For a simple airy profile the numbers are 6.6 and 11.3mas; but given the large central obscuration, they should be slightly smaller than that.
+Did you create an airy profile using the ELT pupil in simcado at the small pixel scale and measure its size?
+
+Davies et al. 2010. This is too out-of-date so please update to Davies et al. 2016, 2018 (SPIE 9908 & 10702 respectively).
+
+FoV: The single chip sticking out doesn't really make the FoV bigger so I think it is better to quote a square field. The 'official' numbers are 50.5"x50.5" and 19"x19"
+
+Since this is paper I, do you want to say at the end of this section that in a forthcoming paper you will describe... (how simcado works, some of the key features, modules, etc)
+
+sec 3.2, p.3
+It is excellent that, at the end of the section, you mention '250sigma for astrmoetry', and also again in Sec 4.1. This is really important to say. I would recommend to repeat it in the respective Figure captions (Figs 1 & 5), just to remind the reader why you explicitly include such high S/N ratios.
+
+sec 3.3, p. 3, right col
+'re-run the analysis without a perfectly linear detector'
+Do you mean instead with a perfectly linear detector? (I assume you refer tothe simulated detector here)
+
+Just below you point out that 75-85% of stars are within 0.3m between HAWK-I and SimCADO. I would suggest also to include an rms difference here (excluding the deviant points in Fig 2). This is important since 0.3m corresponds to 30% in flux, which is a big difference. The rms will be much smaller and will re-assure the reader that the photometric error is a lot less than 30%.
+
+sec 3.4, p. 5
+last paragraph is basically a disclaimer. I would make the statement about your sourceof information right in the first pragraph of sec 3 on page 2 (and leave out the sentence beginning 'Despite our due diligence...').
+
+sec 4, p.6
+'This reflects the read-out time of the HAWAII-4RG detectors.'
+Do you want to add a quantative statement that the baseline for MICADO is a pixel rate of 200kHz through 32 read channels.
+
+last para on p. 6:
+I see where your SCAO strehls come from now, because the star is 5" offaxis. Does SimCADO explicitly have this set of PSFs easily accessible, in case a reader wants to try to reproduce the numbers you give for them?
+I glaf this up because the default SCAO PSFs are the on-axis ones rather than the 5" off-axis ones.
+
+sec 4.1, p. 7
+0.2m weaker -> 0.2m brighter (?)
+
+next para: are the limiting magnitudes for astrometry also 5hours? I would be a bit cautious there. I tihnk more realistically it would be 1 hour. And although you add a note about other limitations, I would explicitly mention crowding - your estimates are for sufficiently isolated sources (i.e. faint stars should not be adversely affected by PSF wings of neabry brighter stars).
+
+next para
+ox-axis -> on-aixs
+
+sec 4.2, p.7
+paragraph starting 'As a sanity check'. Here you make corrections for ETC asumptions. Did you make the same correction, e.g. about collecting area, throughput, whatever, when comparing sensitivities?
+I would recommend to leave this paragraph out. Your sanity check is your validation with HAWK-I. From that you have confirmed the SimCADO is about right.
+
+Actually, I also did a sanity check, against the saturation numbers given in the OCD (PDR document). They're within ~0.4mag, which is ok given that I also made different assumptions (in saturation level & strehl; and also in how the calculation was done).
+
+Instead I would suggest to add a short paragraph noting that we do not plan to allow anyone to get anywhere close to 10^5 counts - as part of our strategy for persistence mitigation. It is likely that we will try to cap counts at 5e4, and recommend to be below that. If there are only 1 or 2 very bright stars, these can be positioned in the gaps between detectors.
+If the science case allows for it, we can also insert neutral density filters (factor 10 & 1000).
+And in the central detector, for high contrast imaging where there will be a bright star in the middle of the detector, we can reduce the number of rows read to reduce the minimum exposure time by a factor 10.
+For exoplanets, exploiting all of these may be ok because the sensitivity to planets will be speckle noise rather than photon noise, and one needs to integrate sufficiently lonog for the field and pupil to rotate with respect to each other.
+
+sec 4.3, p. 8
+can you explicitly say what these 4 science cases are
+
+sec 4.4
+ha, you have more trust in ESO's ETC than I do. I would always want to use something else to verify what it produces.
+
+p. 9 right col
+observing run -> observing block
+
+You mention deconvolution. Actually, the soujtion for that is to use blind or myopic deconvolution, which simultaneously derives the PSF as well as the intrinsic source, from a sequence of exposures. You don't need to specify each PSF in advance, just start it off with a single approximate PSF. There are many more references than Vorontsov & Jeffries for algorithms focussed on AO data (e.g. MISTRAL by Conan, Mugnier & others).
+
+Hmm. Your perpsective is very different to mine. You are assuming the field will be full of very bright stars. But that's not allowed because they saturate and cause persistence. My starting point is that the PSF wings are so faint compared to the PSF core that in most cases they won't interfere, and probably will not be detected as anything other than a quasi-uniform background.
+
+I think it would be worth you (or someone who works on such things) looking quantitatively into galactic star cluster fields you think would be interesting to observe, and seeing how we can do that in practice. e.g. if you can't put bright stars in the gaps, can you manage using narrow band, or even ND filters? Or does that limit the sensitivity too much. Now is the time to look into these things so we can get an idea of what we might do about it.
+
+sec 4.4, p.9, right col
+'As can be seen in Fig. 7...' But Fig 7 doesn't show diffraction spikes.
+Infact Fig 7 isn't described at all. It is a really fantastic figure, so keep it in and add a description.
+
+Do you plan to add a figure showing the diffraction spikes (e.g. log plots of bright SCAO PSFs)?
+
+sec 5, p. 10
+what is the first verification run?
