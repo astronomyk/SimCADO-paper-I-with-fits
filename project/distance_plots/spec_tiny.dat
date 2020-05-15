@@ -1,0 +1,17 @@
+# K band absolute mags taken from here:
+# http://www.pas.rochester.edu/~emamajek/EEM_dwarf_UBVIJHK_colors_Teff.txt
+#
+SpT Mv M_J M_Ks    Mass
+O9I -6.5 -5.5  -5.3  20
+O6V -5.4 -4.7  -4.5  30
+B0V -4.0 -3.27 -3.04 18
+B3V -1.1 -0.73 -0.61 7.3
+A0V 1.11 1.07 1.07   2.5
+F0V 2.51 1.90 1.76   1.6
+G0V 4.39 3.29 2.97   1.2
+K0V 5.76 4.29 3.81   0.75
+M0V 9.16 6.14 5.37   0.5
+L0V 19.8 11.75 10.38 0.1
+T0V ... 15.07 12.90  0.05
+T8V ... 17.24 17.43  0.03
+
