@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20632d4b-4f40-4e3c-9b61-f737b9c1d9a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/distance_plots/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/distance_plots/spec_tiny.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/distance_plots/stellar_type_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/etc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/EC_hawki_vlt_mirrors.tbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/FLATS_ARE_ON_E_DRIVE_NOW_.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/FPA_hawki_layout.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/FPA_hawki_layout_cen.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/FPA_hawki_linearity.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/FPA_hawki_linearity_ext.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/HAWKI_DARK.2015-12-06T09_42_58.241.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/HAWKI_HI_GDIX_111014A_distortion_map.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/HAWKI_HI_GDIY_111014A_distortion_map.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/INST_hawki_wfe.tbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/PSF_HAWKI_poppy.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/PSF_hawki.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_H_HAWKI.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_J_HAWKI.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_Ks_HAWKI.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_Y_HAWKI.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_hawki_H2RG.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/TC_hawki_mirror.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/hawki.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/HAWK-I_config/hawki_FLAT.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/HAWKI.2015-06-10T05_12_28.683.fits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/M4_chip0table.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/M4_chip1table.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/M4_chip2table.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/M4_chip3table.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/M4/fp_2mass.fp_psc9134.tbl.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/2MASS_vs_HAWKado_inst_mags_single.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/2MASS_vs_HAWKado_inst_mags_single.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_rainbow_J.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_rainbow_J.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_counts.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_counts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_images_quarter.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_images_quarter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_ratios.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_ratios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/rainbow_plots_hawki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/raw_image_photometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/raw_sim_comparison.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/sim_image_photometry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/hawki_comparison/the_plan.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/micado_plots/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/micado_plots/rainbow_plots_micado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,18 +44,19 @@
     <session id="-1149064927">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="4" />
           <entry key="dat" value="3" />
+          <entry key="gitignore" value="2" />
           <entry key="png" value="12" />
           <entry key="py" value="14" />
           <entry key="rst" value="1" />
@@ -113,7 +67,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="12" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="Python" value="14" />
           <entry key="ReST" value="1" />
         </counts>
@@ -123,6 +77,7 @@
           <entry key="Python Console" value="102" />
           <entry key="config" value="9" />
           <entry key="dat" value="4" />
+          <entry key="gitignore" value="10" />
           <entry key="py" value="2367" />
           <entry key="rst" value="168" />
           <entry key="tbl" value="18" />
@@ -130,7 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="Python" value="2469" />
           <entry key="ReST" value="168" />
         </counts>
@@ -138,13 +93,13 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.17852437">
+    <splitter split-orientation="horizontal" split-proportion="0.6040843">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project/hawki_comparison/rainbow_plots_hawki.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
+                <state relative-caret-position="50">
                   <caret line="7" selection-start-line="7" selection-end-line="24" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -156,8 +111,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/project/micado_plots/rainbow_plots_micado.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2180">
-                  <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+                <state relative-caret-position="493">
+                  <caret line="124" selection-start-line="124" selection-end-line="124" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -168,7 +123,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project/etc.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
+                <state relative-caret-position="7900">
                   <caret line="319" column="36" selection-start-line="319" selection-start-column="36" selection-end-line="319" selection-end-column="36" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -180,10 +135,19 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/project/micado_plots/images/MICADO_SNR_Rainbow_JHKBrG_ab.png">
               <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="1" selection-start-column="1" selection-end-column="1" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -248,12 +212,13 @@
         <option value="$PROJECT_DIR$/project/hawki_comparison/raw_sim_comparison.py" />
         <option value="$PROJECT_DIR$/project/etc.py" />
         <option value="$PROJECT_DIR$/project/micado_plots/rainbow_plots_micado.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-1088" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -273,18 +238,7 @@
             <path>
               <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimCADO-paper-I" type="462c0819:PsiDirectoryNode" />
-              <item name="co-author_comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimCADO-paper-I" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimCADO-paper-I" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="hawki_comparison" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
@@ -298,45 +252,6 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="micado_plots" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimCADO-paper-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="simcado" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -508,20 +423,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798387" visible="true" weight="0.19083156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49798387" visible="true" weight="0.17803837" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2646421" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2646421" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2505423" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32212582" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -624,9 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/hawki_comparison/M4/HAWKI_vs_HAWKado_counts.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/hawki_comparison/M4/HAWKI_vs_HAWKado_counts.png" />
     <entry file="file://$PROJECT_DIR$/project/hawki_comparison/images/HAWKI_vs_HAWKado_counts.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -671,12 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="185" selection-start-line="185" selection-end-line="185" selection-end-column="56" />
-          <folding>
-            <element signature="e#150#168#0" expanded="true" />
-            <marker date="1589533325555" expanded="true" signature="399:1843" ph="..." />
-            <marker date="1589533325555" expanded="true" signature="2107:2109" ph="..." />
-            <marker date="1589533325555" expanded="true" signature="5026:5027" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -690,15 +597,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
-          <folding>
-            <marker date="1589538202338" expanded="true" signature="6771:6772" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/hawki_comparison/rainbow_plots_hawki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="50">
           <caret line="7" selection-start-line="7" selection-end-line="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -708,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/etc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="7900">
           <caret line="319" column="36" selection-start-line="319" selection-start-column="36" selection-end-line="319" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -718,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/micado_plots/rainbow_plots_micado.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2180">
-          <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="493">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -728,6 +632,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/micado_plots/images/MICADO_SNR_Rainbow_JHKBrG_ab.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
